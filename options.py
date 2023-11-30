@@ -12,7 +12,7 @@ def args_parser():
                         help="number of users: n")
     parser.add_argument('--frac', type=float, default=1.0,
                         help='the fraction of clients: C')
-    parser.add_argument('--local_epoch', type=int, default=0,
+    parser.add_argument('--local_epoch', type=int, default=5,
                         help="the number of local epochs")
     parser.add_argument('--local_iter', type=int, default=1,
                         help="the number of local iterations")
